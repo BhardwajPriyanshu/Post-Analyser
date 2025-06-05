@@ -1,5 +1,4 @@
 import streamlit as st
-import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import requests
 from transformers import pipeline
@@ -10,6 +9,14 @@ except OSError:
     from spacy.cli import download
     download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
+import nltk
+
+# Add this to download required data on first run
+nltk.download('punkt')
+nltk.download('stopwords')
+
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 
 # --- Downloads and setup ---
 nltk.download("vader_lexicon")
