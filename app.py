@@ -1,9 +1,15 @@
 import streamlit as st
-import spacy
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import requests
 from transformers import pipeline
+import spacy
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    from spacy.cli import download
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
 # --- Downloads and setup ---
 nltk.download("vader_lexicon")
