@@ -1,0 +1,65 @@
+# Sentiment Analysis Web Application
+
+---
+
+## Slide 1: Project Title
+**Sentiment Analysis Web Application**
+
+*Using Hugging Face & Streamlit*
+
+---
+
+## Slide 2: Objective
+- Build a user-friendly web app for **sentiment analysis**.
+- Display **related news articles** for the input post.
+- Real-time analysis using a pre-trained **Hugging Face model**.
+
+---
+
+## Slide 3: Key Features
+- 🧠 Sentiment Prediction (Positive / Negative / Neutral).
+- 🗞️ Real-time News Fetching based on keywords.
+- ⚡ Fast and responsive Streamlit interface.
+
+---
+
+## Slide 4: Tech Stack
+- **Frontend:** Streamlit
+- **ML Model:** Hugging Face Transformers
+- **Data Processing:** NLTK / spaCy
+- **News API:** NewsAPI.org / GNews / Bing News Search
+
+---
+
+## Slide 5: Application Workflow
+1. **User Input** - User enters a text post.
+2. **Sentiment Analysis** - Hugging Face model predicts the sentiment.
+3. **Keyword Extraction** - Extract important keywords.
+4. **News Fetching** - Related news articles are fetched using APIs.
+5. **Display Results** - Sentiment & news are displayed side-by-side.
+
+---
+
+## Slide 6: Use Cases
+- 📱 Social media post analysis.
+- 💬 Product and service reviews.
+- 📰 Discover trending news on personal topics.
+- 🕵️ Public opinion tracking.
+
+---
+
+## Slide 7: Future Scope
+- 🌍 Multi-language support.
+- 📊 Sentiment trend visualization.
+- 🧠 Smart news recommendation systems.
+
+---
+
+## Slide 8: Conclusion
+This project integrates **NLP and real-time news search** into a clean, interactive Streamlit web app — perfect for sentiment understanding and news discovery.
+
+---
+
+## Slide 9: Thank You!
+**Questions & Demo Time!**
+
