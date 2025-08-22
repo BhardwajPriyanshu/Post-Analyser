@@ -1,9 +1,9 @@
 import streamlit as st
+import spacy
+import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import requests
 from transformers import pipeline
-import spacy
-import nltk
 
 # --- Downloads and setup ---
 nltk.download("vader_lexicon")
